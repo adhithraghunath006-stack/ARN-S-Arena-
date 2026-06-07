@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARN'S ARENA (TTT)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main-container">
+
+    <div class="game-section">
+        <h1>🔥 Tic Tac Toe</h1>
+
+        <button onclick="toggleTheme()" class="theme-btn">🌙</button>
+        <button onclick="goToProfile()">👤 Profile</button>
+        <button onclick="logout()">🚪 Logout</button>
+
+        <div class="players">
+            <input type="text" id="playerX" placeholder="Player X Name">
+            <input type="text" id="playerO" placeholder="Player O Name">
+            <button onclick="startGame()">Start Game</button>
+        </div>
+
+        <h2 id="status">Enter the arena ⚔️</h2>
+
+        <div id="board">
+            <div class="cell" onclick="handleClick(0)"></div>
+            <div class="cell" onclick="handleClick(1)"></div>
+            <div class="cell" onclick="handleClick(2)"></div>
+            <div class="cell" onclick="handleClick(3)"></div>
+            <div class="cell" onclick="handleClick(4)"></div>
+            <div class="cell" onclick="handleClick(5)"></div>
+            <div class="cell" onclick="handleClick(6)"></div>
+            <div class="cell" onclick="handleClick(7)"></div>
+            <div class="cell" onclick="handleClick(8)"></div>
+
+            <div class="line v1"></div>
+            <div class="line v2"></div>
+            <div class="line h1"></div>
+            <div class="line h2"></div>
+        </div>
+
+        <div class="controls">
+            <button onclick="restartGame()">Restart</button>
+            <button onclick="resetLeaderboard()">Reset Leaderboard</button>
+        </div>
+    </div>
+
+    <div class="right-sidebar" style="flex: 1; display: flex; flex-direction: column; gap: 20px; width: 100%;">
+        
+        <div class="leaderboard-section" style="margin-bottom: 0;">
+            <h2>🏆 Leaderboard</h2>
+            <ul id="leaderboardList"></ul>
+        </div> 
+
+        <div class="guide-box">
+            <div class="guide-header" onclick="toggleGuide()">
+                🎮 How to Play ⬇️
+            </div>
+
+            <div id="guideContent" class="guide-content">
+                <ul>
+                    <li>❌ Player X Starts</li>
+                    <li>⭕ Players take turns</li>
+                    <li>📏 Get 3 in a row</li>
+                    <li>🏆 Winner gets points</li>
+                    <li>🤝 9 moves = Draw</li>
+                </ul>
+            </div>
+        </div>
+
+    </div> </div>
+
+<script>
+function toggleGuide(){
+    let g = document.getElementById("guideContent");
+    if(g.style.display === "none" || g.style.display === ""){
+        g.style.display = "block";
+    } else {
+        g.style.display = "none";
+    }
+}
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>

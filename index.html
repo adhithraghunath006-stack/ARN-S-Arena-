@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ARN's Arena 🔥</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="arena">
+
+    <div class="arena-container">
+        <h1>🔥 ARN's Arena 🔥</h1>
+        <p>Enter the ultimate battle zone ⚔️</p>
+
+        <button onclick="startGame()" class="play-btn">
+            ▶ PLAY
+        </button>
+    </div>
+
+    <script>
+        function startGame() {
+            // Check karenge ki user pehle se logged in hai ya nahi
+            const user = localStorage.getItem("currentPlayer");
+
+            if (user) {
+                // Agar login hai, toh seedha game mein bhejo
+                window.location.href = "game.html";
+            } else {
+                // Agar login nahi hai, toh pehle login page par bhejien
+                alert("Please login first to enter the arena!");
+                window.location.href = "login.html";
+            }
+        }
+    </script>
+
+</body>
+</html>

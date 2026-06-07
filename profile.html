@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Profile - ARN'S ARENA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="profile-container">
+
+    <h1>👤 Player Profile</h1>
+
+    <div class="profile-card">
+        <p>Name: <span id="p_name">Loading...</span></p>
+        <p>Games Played: <span id="p_games">0</span></p>
+        <p>Wins: <span id="p_wins">0</span></p>
+        <p>Losses: <span id="p_losses">0</span></p>
+        <p>Draws: <span id="p_draws">0</span></p>
+        <p>Points: <span id="p_points">0</span></p>
+    </div>
+
+    <div class="achievements-box">
+        <h2>🏆 Achievements</h2>
+        <ul id="achievements"></ul>
+    </div>
+
+    <button onclick="window.location.href='game.html'">⬅ Back to Game</button>
+
+</div>
+
+<script src="script.js"></script>
+
+<script>
+// Safe invocation checking wrapper
+document.addEventListener("DOMContentLoaded", () => {
+    if (typeof loadProfile === "function") {
+        loadProfile();
+    } else {
+        console.error("loadProfile function script.js mein nahi mila!");
+    }
+});
+</script>
+
+</body>
+</html>

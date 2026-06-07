@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Login - ARN'S ARENA</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body.arena{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#020826;
+}
+
+/* LOGIN CARD */
+.login-container{
+    width:500px;
+    background:#1d223b;
+    padding:60px 55px;
+    border-radius:32px;
+    text-align:center;
+    box-shadow: 0 0 25px rgba(0,140,255,0.18);
+}
+
+/* HEADINGS */
+.login-container h1{
+    color:white;
+    font-size:40px;
+    margin-bottom:30px;
+    font-weight:800;
+    letter-spacing:1px;
+}
+
+.login-container h2{
+    color:white;
+    font-size:30px;
+    margin-bottom:40px;
+}
+
+/* INPUTS */
+.login-container input{
+    width:100%;
+    padding:19px;
+    margin-bottom:25px;
+    border:none;
+    outline:none;
+    border-radius:16px;
+    font-size:16px;
+    background:#f2f2f2;
+}
+
+.login-container input:focus{
+    box-shadow: 0 0 12px #00bfff;
+}
+
+/* LOGIN BUTTON */
+.login-btn{
+    width:100%;
+    padding:18px;
+    border:none;
+    border-radius:16px;
+    cursor:pointer;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+    background:linear-gradient(90deg,#18c5f4,#0b78ff);
+    box-shadow:
+    0 0 12px rgba(0,191,255,0.8),
+    0 0 22px rgba(255,0,100,0.35);
+    transition:0.3s;
+}
+
+.login-btn:hover{
+    transform:scale(1.03);
+    box-shadow:
+    0 0 20px rgba(0,191,255,1),
+    0 0 35px rgba(255,0,100,0.5);
+}
+
+/* TEXT */
+.login-container p{
+    color:white;
+    margin-top:30px;
+    font-size:18px;
+}
+
+/* SIGNUP BUTTON */
+.signup-btn{
+    margin-top:18px;
+    padding:16px 32px;
+    border:none;
+    border-radius:15px;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:bold;
+    color:white;
+    background:linear-gradient(90deg,#ff512f,#ff3d77);
+    box-shadow: 0 0 14px rgba(255,72,72,0.7);
+    transition:0.3s;
+}
+
+.signup-btn:hover{
+    transform:scale(1.05);
+}
+</style>
+</head>
+
+<body class="arena">
+
+<div class="login-container">
+    <h1>🔥 ARN'S ARENA</h1>
+    <h2>🔐 Login</h2>
+
+    <input id="loginUser" type="text" placeholder="Enter Username">
+    <input id="loginPass" type="password" placeholder="Enter Password">
+
+    <button onclick="login()" class="login-btn">
+        Login 🚀
+    </button>
+
+    <p>New here?</p>
+
+    <button onclick="window.location.href='signup.html'" class="signup-btn">
+        Create Account ✨
+    </button>
+</div>
+
+<script>
+// ==================== CONFIGURATION ====================
+// 🔴 LOCAL TESTING ke liye ise ON rakhein:
+const BASE_URL = "http://localhost:3000";
+
+// 🚀 DEPLOYMENT (Render) ke time upar wali line ko comment karke ise UNCOMMENT kar dena:
+// const BASE_URL = "https://your-app.onrender.com"; 
+// =======================================================
+
+function login(){
+    let username = document.getElementById("loginUser").value;
+    let password = document.getElementById("loginPass").value;
+
+    if(!username || !password) {
+        alert("Please fill all fields!");
+        return;
+    }
+
+    // Fixed: Ab ye dynamic BASE_URL se fetch karega
+    fetch(`${BASE_URL}/login`, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ username, password })
+    })
+    .then(res => res.json())
+    .then(data => {
+        alert(data.message);
+
+        if(data.message === "Login success"){
+            localStorage.setItem("currentPlayer", data.username);
+            window.location.href = "game.html";
+        }
+    })
+    .catch(err => {
+        console.error("Login Client Error:", err);
+        alert("Server se connect nahi ho pa raha! Check karein ki backend chal raha hai ya nahi.");
+    });
+}
+</script>
+
+</body>
+</html>
