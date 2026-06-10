@@ -144,34 +144,25 @@ node server.js
 📸 Screenshots
 
 
+## 🏠 Home Screen
 
-Home Screen
+![Home Screen](https://github.com/user-attachments/assets/4cec6b81-e43d-4226-b343-f58f544b432c)
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4cec6b81-e43d-4226-b343-f58f544b432c" />
+## 🔐 Login Page
 
+![Login Page](https://github.com/user-attachments/assets/31ee7d9d-4815-4a4b-91e8-04590a36f058)
 
+## 🎮 Game Interface
 
-Login Page
+![Game Interface](https://github.com/user-attachments/assets/dad3530f-00f3-4e7b-a083-599ea6eccdec)
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/31ee7d9d-4815-4a4b-91e8-04590a36f058" />
+## 🏆 Leaderboard
 
+![Leaderboard](https://github.com/user-attachments/assets/bf0f6bcd-3503-48a7-953e-6a614bdde59b)
 
+## 👤 Player Profile
 
-Game Interface
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dad3530f-00f3-4e7b-a083-599ea6eccdec" />
-
-
-
-Leaderboard
-
-<img width="515" height="566" alt="image" src="https://github.com/user-attachments/assets/bf0f6bcd-3503-48a7-953e-6a614bdde59b" />
-
-
-
-Player Profile
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f1623957-a7d4-478c-8a0c-b251b0464cde" />
+![Player Profile](https://github.com/user-attachments/assets/f1623957-a7d4-478c-8a0c-b251b0464cde)
 
 
 
