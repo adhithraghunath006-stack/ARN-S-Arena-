@@ -3,7 +3,7 @@
 ARN's Arena is a modern multiplayer Tic-Tac-Toe platform featuring player authentication, leaderboards, profiles, achievements, real-time score tracking, and an immersive gaming experience.
 
 🌐 Live Demo:
-https://bucolic-arithmetic-c104de.netlify.app/
+https://arnsarena.netlify.app/
 
 🧠 Project Overview
 
@@ -130,7 +130,8 @@ Leaderboard
 
 Player Profile
 
-<img width="635" height="765" alt="image" src="https://github.com/user-attachments/assets/055f6247-62e3-412f-b277-4cde0ddf332a" />
+<img width="932" height="797" alt="image" src="https://github.com/user-attachments/assets/09f75671-5184-4538-a5e8-497f52314ccc" />
+
 
 
 👨‍💻 Author
