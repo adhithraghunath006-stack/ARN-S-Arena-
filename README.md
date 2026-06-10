@@ -124,6 +124,24 @@ The objective of ARN's Arena is to:
 - Demonstrate full-stack web development skills
 
 ---
+## ScreenShots 
+ 
+ Home Screen 
+
+<img width="788" height="560" alt="Screenshot 2026-06-10 202047" src="https://github.com/user-attachments/assets/c0494384-0054-47a6-ba13-230fe1caaf7a" />
+
+ Login Page 
+
+<img width="747" height="804" alt="Screenshot 2026-06-10 202113" src="https://github.com/user-attachments/assets/71074535-324a-4257-b3a4-396d212e36ad" />
+
+  Game UI & Leaderboard
+ 
+ <img width="1920" height="1080" alt="Screenshot (333)" src="https://github.com/user-attachments/assets/d6e7f5ce-7478-4fa9-bfef-1b2c13ac0c0b" />
+
+  Profile
+ 
+ <img width="1920" height="1080" alt="Screenshot (332)" src="https://github.com/user-attachments/assets/abf54c36-79ee-44e7-ba9c-4aeee7b572ae" />
+
 
 ## 🚀 Getting Started
 
