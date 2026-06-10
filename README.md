@@ -146,23 +146,28 @@ node server.js
 
 ## 🏠 Home Screen
 
-![Home Screen](https://github.com/user-attachments/assets/4cec6b81-e43d-4226-b343-f58f544b432c)
+![Home Screen]<img width="788" height="560" alt="Screenshot 2026-06-10 202047" src="https://github.com/user-attachments/assets/b1654058-ccb9-4333-a745-50234f3bb909" />
+
 
 ## 🔐 Login Page
 
-![Login Page](https://github.com/user-attachments/assets/31ee7d9d-4815-4a4b-91e8-04590a36f058)
+![Login Page]<img width="747" height="804" alt="Screenshot 2026-06-10 202113" src="https://github.com/user-attachments/assets/57ec0d8a-3ff2-4889-b351-ae5b39573e63" />
+
 
 ## 🎮 Game Interface
 
-![Game Interface](https://github.com/user-attachments/assets/dad3530f-00f3-4e7b-a083-599ea6eccdec)
+![Game Interface]<img width="1920" height="1080" alt="Screenshot (333)" src="https://github.com/user-attachments/assets/90c38803-ffa4-4e35-bd86-44ad03d55cb7" />
+
 
 ## 🏆 Leaderboard
 
-![Leaderboard](https://github.com/user-attachments/assets/bf0f6bcd-3503-48a7-953e-6a614bdde59b)
+![Leaderboard]<img width="468" height="377" alt="Screenshot 2026-06-10 202433" src="https://github.com/user-attachments/assets/f40cd2ba-2bad-4789-bece-f613c362a0b0" />
+
 
 ## 👤 Player Profile
 
-![Player Profile](https://github.com/user-attachments/assets/f1623957-a7d4-478c-8a0c-b251b0464cde)
+![Player Profile]<img width="1920" height="1080" alt="Screenshot (332)" src="https://github.com/user-attachments/assets/0bef2eeb-c14c-4310-a506-e0bbfc23e286" />
+
 
 
 
