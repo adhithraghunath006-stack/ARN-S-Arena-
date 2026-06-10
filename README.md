@@ -147,27 +147,32 @@ node server.js
 
 Home Screen
 
-<img width="788" height="560" alt="image" src="https://github.com/user-attachments/assets/c53979fd-7fe5-4573-8ae2-a7c7a6264d43" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4cec6b81-e43d-4226-b343-f58f544b432c" />
+
 
 
 Login Page
 
-<img width="747" height="804" alt="image" src="https://github.com/user-attachments/assets/ed85c97f-b88b-4cf3-a778-7223920d247b" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/31ee7d9d-4815-4a4b-91e8-04590a36f058" />
+
 
 
 Game Interface
 
-<img width="1403" height="835" alt="image" src="https://github.com/user-attachments/assets/49aa252d-12b6-425b-bf05-e4219115b856" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dad3530f-00f3-4e7b-a083-599ea6eccdec" />
+
 
 
 Leaderboard
 
-<img width="468" height="377" alt="image" src="https://github.com/user-attachments/assets/867beaff-5f37-4e59-aa3a-a989c749e68b" />
+<img width="515" height="566" alt="image" src="https://github.com/user-attachments/assets/bf0f6bcd-3503-48a7-953e-6a614bdde59b" />
+
 
 
 Player Profile
 
-<img width="932" height="797" alt="image" src="https://github.com/user-attachments/assets/09f75671-5184-4538-a5e8-497f52314ccc" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f1623957-a7d4-478c-8a0c-b251b0464cde" />
+
 
 
 
