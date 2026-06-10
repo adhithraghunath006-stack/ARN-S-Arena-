@@ -107,6 +107,8 @@ Create a .env file:
 MONGO_URI=YOUR_MONGODB_CONNECTION_STRING
 Start Server
 node server.js
+
+
 📸 Screenshots
 Home Screen
 
