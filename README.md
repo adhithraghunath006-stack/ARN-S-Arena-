@@ -141,33 +141,6 @@ MONGO_URI=YOUR_MONGODB_CONNECTION_STRING
 Start Server
 node server.js
 
-📸 Screenshots
-
-
-## 🏠 Home Screen
-
-![Home Screen]<img width="788" height="560" alt="Screenshot 2026-06-10 202047" src="https://github.com/user-attachments/assets/b1654058-ccb9-4333-a745-50234f3bb909" />
-
-
-## 🔐 Login Page
-
-![Login Page]<img width="747" height="804" alt="Screenshot 2026-06-10 202113" src="https://github.com/user-attachments/assets/57ec0d8a-3ff2-4889-b351-ae5b39573e63" />
-
-
-## 🎮 Game Interface
-
-![Game Interface]<img width="1920" height="1080" alt="Screenshot (333)" src="https://github.com/user-attachments/assets/90c38803-ffa4-4e35-bd86-44ad03d55cb7" />
-
-
-## 🏆 Leaderboard
-
-![Leaderboard]<img width="468" height="377" alt="Screenshot 2026-06-10 202433" src="https://github.com/user-attachments/assets/f40cd2ba-2bad-4789-bece-f613c362a0b0" />
-
-
-## 👤 Player Profile
-
-![Player Profile]<img width="1920" height="1080" alt="Screenshot (332)" src="https://github.com/user-attachments/assets/0bef2eeb-c14c-4310-a506-e0bbfc23e286" />
-
 
 
 
